@@ -1,0 +1,35 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.container{height: auto; width: 100%;}
+.header{height: auto; width: 100%; background: lightblue;
+padding: 40px;}
+.header img{height: 70px; width: 80px;}
+.header p{float: right; margin-right: 200px; font-size: 35px;
+font-weight: bold; font-family: cursive; color: green;}
+.menu{height: auto; width: 100%; background: wheat;
+padding: 17px 0px; position: sticky; top: 1px;}
+.menu a{text-decoration: none; padding: 17px 35px;}
+.menu a:hover{background: purple; color: white;}
+.slider img{height: 500px; width: 100%;}
+.content{height: auto; width: 100%; background: url('../image/slider.jpg');
+background-size: cover; padding: 30px; text-align: justify;
+background-attachment: fixed; color: white; font-weight: bold;}
+.content img{float: left;}
+.row{height: 1200px; width: 100%; }
+.left{height: 1200px; width: 25%; float: left; 
+}
+.right{height: 1200px; width: 75%; float: left; padding: 15px;
+    background: lightgreen; text-align: justify;}
+.left ul{list-style: none; margin-top: 15px;}
+.left li{width: 90%; background: rgb(53, 146, 53); padding: 15px 0px;
+text-align: center; margin: 2px 5%;}
+.left #mycat{background: purple; color: white;
+font-size: 20px;}
+.left li:hover{background: yellowgreen;}
+.right p,h3{ margin-top: 20px;}
+.right p{text-indent: 200px;}
+.footer{height: auto; width: 100%; background: black;
+padding: 50px; font-size: 24px; text-align: center;
+color: white;}
+.bdata{padding: 20px; background: rgba(0,0,0,0.4); width: 100%;
+color: white; position: absolute; top: 650px;}
+.bdata button{float: right; margin-top: -20px;}
